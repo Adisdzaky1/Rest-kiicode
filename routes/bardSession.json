@@ -1,0 +1,15 @@
+[
+    {
+        "domain": ".google.com",
+        "expirationDate": 1724745648.310818,
+        "hostOnly": false,
+        "httpOnly": true,
+        "name": "__Secure-1PSID",
+        "path": "/",
+        "sameSite": "unspecified",
+        "secure": true,
+        "session": false,
+        "storeId": "0",
+        "value": "ZAiTliGXHnnDLmMiLEEKBh4QAWKxlN1bSb0OvPlXYX_5xJZbirTKh3Ssv6Lh6r5LYX4GaQ."
+    }
+]

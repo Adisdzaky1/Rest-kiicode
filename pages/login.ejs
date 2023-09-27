@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta property="og:site_name" content="api.ibeng.tech/login" />
+    <meta property="og:title" content="Sign In | ibeng" />
+    <meta property="og:url" content="api.ibeng.tech/login" />
+    <meta property="og:image" content="https://telegra.ph/file/72d45ec36061d47f2e83b.jpg" />
+    <meta property="og:image:type" content="image/jpg" />
+    <meta property="og:image:width" content="400" />
+    <meta property="og:image:height" content="300" />
+    <meta property="og:image:alt" content="ibeng Coding" />
+    <meta property="og:description" content="Login" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="Login">
+	<meta name="author" content="ibeng">
+	<meta name="keywords" content="Login">
+	<title>iBeng API - Login</title>
+	
+	<!-- ICON -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">    
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="css/font.css?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+	<link class="js-stylesheet" href="./css/style.css" rel="stylesheet">
+	
+</head>
+
+<body data-theme="default" data-layout="fluid" data-sidebar-position="left" data-sidebar-layout="default">
+	<main class="d-flex w-100 h-100">
+		<div class="container d-flex flex-column">
+			<div class="row vh-100">
+				<div class="col-sm-10 col-md-8 col-lg-6 mx-auto d-table h-100">
+					<div class="d-table-cell align-middle">
+					
+					<center>
+            			
+            			
+            			<%- include('alert/success')  %>
+            			<%- include('alert/error')  %>
+            			<%- include('alert/error2')  %>
+				
+            			
+					</center>
+					
+						<div class="text-center mt-4">
+							<h1 class="h2">Welcome back!</h1>
+							<p class="lead">
+								Sign in to your account to continue
+							</p>
+						</div>
+
+						<div class="card">
+							<div class="card-body">
+								<div class="m-sm-4">
+									<div class="text-center">
+										
+									</div>
+									<form action="/login" method="POST">
+										<div class="mb-3">
+											<label class="form-label">Username</label>
+											<input class="form-control form-control-lg" type="username" name="username" placeholder="Enter your username" required>
+										</div>
+										<div class="mb-3">
+											<label class="form-label">Password</label>
+											<input class="form-control form-control-lg" type="password" name="password" placeholder="Enter your password" required>
+											
+										</div>
+										<div>
+											<label class="form-check">
+												<input class="form-check-input" type="checkbox" checked="" required>
+												<span class="form-check-label">
+													Remember me
+												</span>
+											</label>
+
+                      <div class="g-recaptcha" data-sitekey="6LcHhD4mAAAAABNrbkdrap9Gg9R_nVmksj4kcWbV"></div>
+
+											Don't have any account? <a href="/signup">Sign up</a>
+										</div>
+										<div class="text-center mt-3">
+											<button type="submit" class="btn btn-lg btn-primary">Sign in</button>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<script src="js/main.js"></script>
+	
+</body>
+</html>
