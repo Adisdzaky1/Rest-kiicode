@@ -1,8 +1,8 @@
-global.author = "iBeng";
+global.author = "PediaDev";
 global.key_free = [];
 global.key_premium = [];
-global.limit_free = "9999";
-global.limit_premium = "9999";
+global.limit_free = "15";
+global.limit_premium = "99999";
 global.dateLimit = "Juli, 01 2023",
 global.mongo_Db = "mongodb+srv://ibeng21:COMV7ANurvQ78pzh@cluster1.ngddnry.mongodb.net/?retryWrites=true&w=majority";
 global.recaptcha_key_1 = "6LegHYwmAAAAAOmYT82OldAD5MOpo7S9g5pT0XfQ";
